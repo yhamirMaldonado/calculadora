@@ -1,0 +1,44 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="button"]{
+    width: 8rem;
+    height: 7rem;
+    max-width: 100%;
+    border: none;
+    padding: 0;
+    margin-bottom: 1rem;
+    margin-right: .5rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+input[type="button"]:hover{
+    cursor: pointer;
+    background-color: #aaaaaa;
+}
+input[type="text"]{
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1rem 1rem;
+    text-align: right;
+    outline: none;
+    border: 2px solid #aaaaaa;
+    box-shadow: 0 0 5px 2px #000000;
+}
