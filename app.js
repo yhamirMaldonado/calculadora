@@ -16,6 +16,11 @@ function agregar(valor){
         }
         return;        
     }
+    if(ventana.value==="0"){
+        ventana.value="";
+        ventana.value+=valor;
+        return;
+    }
     ventana.value+=valor;
     
 }
